@@ -19,7 +19,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/convex/*": ["./convex/*"],
+      "convex/*": ["./convex/*"],
+      "convex/_generated/*": ["./convex/_generated/*"]
     }
   },
   "include": [
